@@ -88,8 +88,8 @@ class QuadTree {
     query(range, found) {
 
 
-        if (!this.boundary.intersects(range)) {
-            return;
+            if (!this.boundary.intersects(range)) {
+                return;
         } else {
             for (let p of this.points) {
                 count++;
